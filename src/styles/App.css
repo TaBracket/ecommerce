@@ -1,0 +1,26 @@
+.app {
+  @apply flex h-screen max-w-[100vw] flex-col items-center justify-start bg-zinc-200;
+}
+.app--section {
+  @apply flex w-full items-center justify-center bg-zinc-300;
+}
+.app--header {
+  @apply h-[50px] w-full items-center justify-between gap-2;
+}
+.app_header--sections {
+  @apply flex items-center justify-center border border-rose-400 p-2;
+}
+.app_header--sections:nth-child(1) {
+  @apply w-[20%];
+}
+.app_header--sections:nth-child(2) {
+  @apply w-[60%];
+}
+.app_header--sections:nth-child(3) {
+  @apply w-[20%];
+}
+.app--main {
+}
+.app--footer {
+  @apply mt-auto;
+}
