@@ -1,0 +1,18 @@
+.assembling {
+  @apply flex w-full flex-col items-center justify-center p-2;
+}
+.assembling--form {
+  @apply grid w-[70%] grid-cols-2;
+}
+.assembling--form div {
+  @apply p-2;
+}
+.assembling_form--components {
+  @apply col-span-1 h-[800px] bg-slate-400;
+}
+.assembling_form--informations {
+  @apply col-span-1 bg-slate-500;
+}
+.assembling_form--submit {
+  @apply col-span-2 h-[300px] bg-slate-600;
+}

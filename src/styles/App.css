@@ -8,7 +8,7 @@
   @apply h-[50px] w-full items-center justify-between gap-2;
 }
 .app_header--sections {
-  @apply flex items-center justify-center border border-rose-400 p-2;
+  @apply flex h-full items-center justify-center border border-rose-400 p-2;
 }
 .app_header--sections:nth-child(1) {
   @apply w-[20%];

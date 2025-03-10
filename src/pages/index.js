@@ -1,3 +1,4 @@
 import Home from "./home/Home";
+import Assembling from "./home/sub-pages/Assembling";
 
-export { Home };
+export { Home, Assembling };

@@ -1,7 +1,7 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
 import { HomeLayout } from "../../layouts";
-import { Home } from "../../pages";
+import { Home, Assembling } from "../../pages";
 
 export default function AppRoutes() {
   const routes = useRoutes([
@@ -12,6 +12,10 @@ export default function AppRoutes() {
         {
           index: true,
           element: <Home />,
+        },
+        {
+          path: "/assembling",
+          element: <Assembling />,
         },
       ],
     },

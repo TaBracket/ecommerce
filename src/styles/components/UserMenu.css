@@ -1,0 +1,14 @@
+.userMenu {
+  @apply relative flex flex-col;
+}
+.userMenu--hero {
+  @apply flex items-center justify-center gap-1 p-2;
+}
+.userMenu_hero--span {
+}
+.userMenu_hero--span:nth-child(1) {
+}
+.userMenu_hero--span:nth-child(2) {
+}
+.userMenu--menu {
+}

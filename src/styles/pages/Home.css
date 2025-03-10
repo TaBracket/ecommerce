@@ -1,0 +1,12 @@
+.home {
+  @apply flex w-full flex-col items-center justify-start gap-4 bg-blue-400;
+}
+.home--slider {
+  @apply flex h-[600px] w-full items-center justify-center bg-zinc-800 text-zinc-50;
+}
+.home--articles {
+  @apply flex w-[70%] flex-col gap-2 bg-blue-500;
+}
+.home_articles--article {
+  @apply h-[300px] w-full border border-zinc-800 p-2;
+}

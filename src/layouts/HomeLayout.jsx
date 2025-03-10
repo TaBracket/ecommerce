@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import "./../styles/layouts/HomeLayout.css";
 export default function HomeLayout() {
   return (
-    <div>
+    <div className="HomeLayout">
       <Outlet />
     </div>
   );
