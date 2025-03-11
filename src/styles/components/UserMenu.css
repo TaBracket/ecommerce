@@ -1,14 +1,14 @@
 .userMenu {
-  @apply relative flex flex-col;
+  @apply border-r border-zinc-400 px-2 py-1;
 }
 .userMenu--hero {
-  @apply flex items-center justify-center gap-1 p-2;
 }
-.userMenu_hero--span {
+.userMenu--hero span {
+  @apply cursor-pointer text-[14px] text-zinc-500;
 }
-.userMenu_hero--span:nth-child(1) {
+.userMenu--hero span:nth-child(1) {
 }
-.userMenu_hero--span:nth-child(2) {
+.userMenu--hero span:nth-child(2) {
 }
 .userMenu--menu {
 }

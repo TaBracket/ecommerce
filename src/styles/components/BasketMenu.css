@@ -1,8 +1,10 @@
 .basketMenu {
+  @apply px-2 py-1;
 }
 .basketMenu--hero {
 }
 .basketMenu_hero--span {
+  @apply cursor-pointer text-[14px] text-zinc-500;
 }
 .basketMenu--menu {
 }

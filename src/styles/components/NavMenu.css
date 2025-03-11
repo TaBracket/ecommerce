@@ -1,18 +1,23 @@
 .navMenu {
   @apply flex w-full items-center justify-center gap-4;
 }
-.navMenu li {
-  @apply flex cursor-pointer items-center justify-center gap-1 capitalize;
+.navMenu--item {
+  @apply px-2 py-1 text-zinc-500;
 }
-.navMenu li span {
-  @apply font-Poppins-Regular;
+.navMenu--item span {
+  @apply font-Poppins-Regular text-[14px] capitalize;
 }
-.navMenu li a {
-  @apply flex items-center gap-1 px-4 py-1;
+.navMenu--item:hover span {
+  @apply text-zinc-800;
 }
-.navMenu li a span {
+.navMenu--item span:nth-child(1) {
 }
-.navMenu li a span:nth-child(1) {
+.navMenu--item span:nth-child(2) {
 }
-.navMenu li a span:nth-child(2) {
+
+.navMenu--item a {
+  @apply flex items-center justify-center gap-1;
+}
+.navMenu--item button {
+  @apply flex items-center justify-center gap-1;
 }

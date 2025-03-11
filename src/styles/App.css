@@ -2,13 +2,13 @@
   @apply flex h-screen max-w-[100vw] flex-col items-center justify-start bg-zinc-200;
 }
 .app--section {
-  @apply flex w-full items-center justify-center bg-zinc-300;
+  @apply flex w-full items-center justify-center;
 }
 .app--header {
-  @apply h-[50px] w-full items-center justify-between gap-2;
+  @apply border-b border-zinc-300;
 }
 .app_header--sections {
-  @apply flex h-full items-center justify-center border border-rose-400 p-2;
+  @apply flex h-full items-center justify-center p-2;
 }
 .app_header--sections:nth-child(1) {
   @apply w-[20%];

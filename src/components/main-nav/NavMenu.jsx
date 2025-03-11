@@ -1,14 +1,11 @@
 import React from "react";
 import "./../../styles/components/NavMenu.css";
 import { Link } from "react-router-dom";
-import {
-  FaHome,
-  FaWrench,
-  IoMdDocument,
-  MdCompare,
-  MdOutlineSupportAgent,
-  MdMenu,
-} from "./../../utils/icons/index";
+// icons
+import { MdOutlineSupportAgent, MdCompare, MdMenu } from "react-icons/md";
+import { IoMdDocument } from "react-icons/io";
+import { FaWrench, FaHome } from "react-icons/fa";
+// icons
 export default function NavMenu() {
   const navItems = [
     { id: "navItem-1", title: "home", icon: <FaHome />, path: "/" },
@@ -34,22 +31,22 @@ export default function NavMenu() {
   ];
   return (
     <ul className="navMenu">
-      <li className="navMenu--menuItem">
-        <span>
-          <MdMenu />
-        </span>
-        <span>category</span>
+      <li className="navMenu--item">
+        <button>
+          <span>
+            <MdMenu />
+          </span>
+          <span>menu</span>
+        </button>
       </li>
-      {navItems.map((item) => {
-        return (
-          <li key={item.id}>
-            <Link to={item.path}>
-              <span>{item.icon}</span>
-              <span>{item.title}</span>
-            </Link>
-          </li>
-        );
-      })}
+      {navItems.map((item) => (
+        <li key={item.id} className="navMenu--item">
+          <Link>
+            <span>{item.icon}</span>
+            <span>{item.title}</span>
+          </Link>
+        </li>
+      ))}
     </ul>
   );
 }
