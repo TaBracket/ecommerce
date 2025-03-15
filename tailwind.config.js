@@ -26,7 +26,11 @@ export default {
       "Poppins-Bold": ["poppins-bold", "sans-serif"],
       "Poppins-Black": ["poppins-black", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        minimal: "0px 4px 6px rgba(0,0,0,0.5) , -4px -4px 6px rgba(255,25,255)",
+      },
+    },
   },
   plugins: [],
 };

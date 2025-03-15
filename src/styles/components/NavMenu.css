@@ -2,19 +2,15 @@
   @apply flex w-full items-center justify-center gap-4;
 }
 .navMenu--item {
-  @apply px-2 py-1 text-zinc-500;
+  @apply shadow-minimal relative z-[99] overflow-hidden rounded-lg px-2 py-1 text-zinc-500;
 }
 .navMenu--item span {
   @apply font-Poppins-Regular text-[14px] capitalize;
-}
-.navMenu--item:hover span {
-  @apply text-zinc-800;
 }
 .navMenu--item span:nth-child(1) {
 }
 .navMenu--item span:nth-child(2) {
 }
-
 .navMenu--item a {
   @apply flex items-center justify-center gap-1;
 }

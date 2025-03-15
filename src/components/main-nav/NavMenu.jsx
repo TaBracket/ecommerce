@@ -41,7 +41,7 @@ export default function NavMenu() {
       </li>
       {navItems.map((item) => (
         <li key={item.id} className="navMenu--item">
-          <Link>
+          <Link to={item.path}>
             <span>{item.icon}</span>
             <span>{item.title}</span>
           </Link>

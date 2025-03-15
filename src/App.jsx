@@ -1,7 +1,14 @@
 import React from "react";
 import "./styles/App.css";
 import AppRoutes from "./services/routes/AppRoutes";
-import { UserMenu, BasketMenu, NavMenu } from "./components";
+import {
+  UserMenu,
+  BasketMenu,
+  NavMenu,
+  Search,
+  Logo,
+  ThemeChanger,
+} from "./components";
 
 export default function App() {
   return (
@@ -14,7 +21,11 @@ export default function App() {
         <div className="app_header--sections">
           <NavMenu />
         </div>
-        <div className="app_header--sections">section-3</div>
+        <div className="app_header--sections">
+          <Search />
+          <Logo />
+          <ThemeChanger />
+        </div>
       </header>
       <main className="app--section app--main">
         <AppRoutes />

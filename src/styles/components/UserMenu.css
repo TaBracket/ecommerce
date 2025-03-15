@@ -3,6 +3,9 @@
 }
 .userMenu--hero {
 }
+.userMenu--hero:hover span {
+  @apply text-zinc-800;
+}
 .userMenu--hero span {
   @apply cursor-pointer text-[14px] text-zinc-500;
 }

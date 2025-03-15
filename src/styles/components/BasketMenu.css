@@ -3,6 +3,9 @@
 }
 .basketMenu--hero {
 }
+.basketMenu--hero:hover span {
+  @apply hover:text-zinc-800;
+}
 .basketMenu_hero--span {
   @apply cursor-pointer text-[14px] text-zinc-500;
 }

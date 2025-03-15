@@ -17,7 +17,7 @@
   @apply w-[60%];
 }
 .app_header--sections:nth-child(3) {
-  @apply w-[20%];
+  @apply w-[20%] bg-blue-400;
 }
 .app--main {
 }
